@@ -1,0 +1,717 @@
+[{
+	"token": null,
+	"range": {
+		"startColumn": 0,
+		"endRow": 10,
+		"endColumn": 1,
+		"startRow": 0
+	},
+	"children": [{
+		"token": null,
+		"range": {
+			"startColumn": 0,
+			"endRow": 10,
+			"endColumn": 1,
+			"startRow": 0
+		},
+		"children": [{
+			"token": null,
+			"range": {
+				"startColumn": 0,
+				"endRow": 10,
+				"endColumn": 1,
+				"startRow": 0
+			},
+			"children": [{
+				"token": null,
+				"range": {
+					"startColumn": 0,
+					"endRow": 1,
+					"endColumn": 16,
+					"startRow": 0
+				},
+				"children": [{
+					"token": null,
+					"range": {
+						"startColumn": 0,
+						"endRow": 1,
+						"endColumn": 16,
+						"startRow": 0
+					},
+					"children": [{
+						"token": {
+							"kind": "importKeyword",
+							"leadingTrivia": "<br>↲\n",
+							"trailingTrivia": "␣"
+						},
+						"range": {
+							"startColumn": 0,
+							"endRow": 1,
+							"endColumn": 7,
+							"startRow": 0
+						},
+						"children": [],
+						"text": "import"
+					}, {
+						"token": {
+							"kind": "identifier(\"ReplayKit\")",
+							"leadingTrivia": "",
+							"trailingTrivia": ""
+						},
+						"range": {
+							"startColumn": 7,
+							"endRow": 1,
+							"endColumn": 16,
+							"startRow": 1
+						},
+						"children": [],
+						"text": "ReplayKit"
+					}],
+					"text": "UnknownDecl"
+				}],
+				"text": "DeclarationStmt"
+			}, {
+				"token": null,
+				"range": {
+					"startColumn": 16,
+					"endRow": 2,
+					"endColumn": 17,
+					"startRow": 1
+				},
+				"children": [{
+					"token": null,
+					"range": {
+						"startColumn": 16,
+						"endRow": 2,
+						"endColumn": 17,
+						"startRow": 1
+					},
+					"children": [{
+						"token": {
+							"kind": "importKeyword",
+							"leadingTrivia": "<br>↲\n",
+							"trailingTrivia": "␣"
+						},
+						"range": {
+							"startColumn": 16,
+							"endRow": 2,
+							"endColumn": 7,
+							"startRow": 1
+						},
+						"children": [],
+						"text": "import"
+					}, {
+						"token": {
+							"kind": "identifier(\"Foundation\")",
+							"leadingTrivia": "",
+							"trailingTrivia": ""
+						},
+						"range": {
+							"startColumn": 7,
+							"endRow": 2,
+							"endColumn": 17,
+							"startRow": 2
+						},
+						"children": [],
+						"text": "Foundation"
+					}],
+					"text": "UnknownDecl"
+				}],
+				"text": "DeclarationStmt"
+			}, {
+				"token": null,
+				"range": {
+					"startColumn": 17,
+					"endRow": 10,
+					"endColumn": 1,
+					"startRow": 2
+				},
+				"children": [{
+					"token": null,
+					"range": {
+						"startColumn": 17,
+						"endRow": 10,
+						"endColumn": 1,
+						"startRow": 2
+					},
+					"children": [{
+						"token": null,
+						"range": {
+							"startColumn": 17,
+							"endRow": 5,
+							"endColumn": 6,
+							"startRow": 2
+						},
+						"children": [{
+							"token": null,
+							"range": {
+								"startColumn": 17,
+								"endRow": 5,
+								"endColumn": 6,
+								"startRow": 2
+							},
+							"children": [{
+								"token": {
+									"kind": "atSign",
+									"leadingTrivia": "<br>↲\n<br>↲\n<span class='lineComment'>\/\/ すべてにobjcがつく必要がある<\/span><br>↲\n",
+									"trailingTrivia": ""
+								},
+								"range": {
+									"startColumn": 17,
+									"endRow": 5,
+									"endColumn": 1,
+									"startRow": 2
+								},
+								"children": [],
+								"text": "@"
+							}, {
+								"token": {
+									"kind": "identifier(\"objc\")",
+									"leadingTrivia": "",
+									"trailingTrivia": "␣"
+								},
+								"range": {
+									"startColumn": 1,
+									"endRow": 5,
+									"endColumn": 6,
+									"startRow": 5
+								},
+								"children": [],
+								"text": "objc"
+							}, {
+								"token": null,
+								"range": {
+									"startColumn": 6,
+									"endRow": 5,
+									"endColumn": 6,
+									"startRow": 5
+								},
+								"children": [],
+								"text": "TokenList"
+							}],
+							"text": "Attribute"
+						}],
+						"text": "AttributeList"
+					}, {
+						"token": null,
+						"range": {
+							"startColumn": 6,
+							"endRow": 5,
+							"endColumn": 13,
+							"startRow": 5
+						},
+						"children": [{
+							"token": {
+								"kind": "publicKeyword",
+								"leadingTrivia": "",
+								"trailingTrivia": "␣"
+							},
+							"range": {
+								"startColumn": 6,
+								"endRow": 5,
+								"endColumn": 13,
+								"startRow": 5
+							},
+							"children": [],
+							"text": "public"
+						}, {
+							"token": null,
+							"range": {
+								"startColumn": 13,
+								"endRow": 5,
+								"endColumn": 13,
+								"startRow": 5
+							},
+							"children": [],
+							"text": "TokenList"
+						}],
+						"text": "DeclModifier"
+					}, {
+						"token": {
+							"kind": "classKeyword",
+							"leadingTrivia": "",
+							"trailingTrivia": "␣"
+						},
+						"range": {
+							"startColumn": 13,
+							"endRow": 5,
+							"endColumn": 19,
+							"startRow": 5
+						},
+						"children": [],
+						"text": "class"
+					}, {
+						"token": {
+							"kind": "identifier(\"ReplayKitSwift\")",
+							"leadingTrivia": "",
+							"trailingTrivia": "␣"
+						},
+						"range": {
+							"startColumn": 19,
+							"endRow": 5,
+							"endColumn": 34,
+							"startRow": 5
+						},
+						"children": [],
+						"text": "ReplayKitSwift"
+					}, {
+						"token": {
+							"kind": "colon",
+							"leadingTrivia": "",
+							"trailingTrivia": "␣"
+						},
+						"range": {
+							"startColumn": 34,
+							"endRow": 5,
+							"endColumn": 36,
+							"startRow": 5
+						},
+						"children": [],
+						"text": ":"
+					}, {
+						"token": null,
+						"range": {
+							"startColumn": 36,
+							"endRow": 5,
+							"endColumn": 45,
+							"startRow": 5
+						},
+						"children": [{
+							"token": {
+								"kind": "identifier(\"NSObject\")",
+								"leadingTrivia": "",
+								"trailingTrivia": "␣"
+							},
+							"range": {
+								"startColumn": 36,
+								"endRow": 5,
+								"endColumn": 45,
+								"startRow": 5
+							},
+							"children": [],
+							"text": "NSObject"
+						}],
+						"text": "SimpleTypeIdentifier"
+					}, {
+						"token": {
+							"kind": "leftBrace",
+							"leadingTrivia": "",
+							"trailingTrivia": ""
+						},
+						"range": {
+							"startColumn": 45,
+							"endRow": 5,
+							"endColumn": 46,
+							"startRow": 5
+						},
+						"children": [],
+						"text": "{"
+					}, {
+						"token": null,
+						"range": {
+							"startColumn": 46,
+							"endRow": 9,
+							"endColumn": 3,
+							"startRow": 5
+						},
+						"children": [{
+							"token": null,
+							"range": {
+								"startColumn": 46,
+								"endRow": 9,
+								"endColumn": 3,
+								"startRow": 5
+							},
+							"children": [{
+								"token": null,
+								"range": {
+									"startColumn": 46,
+									"endRow": 6,
+									"endColumn": 8,
+									"startRow": 5
+								},
+								"children": [{
+									"token": null,
+									"range": {
+										"startColumn": 46,
+										"endRow": 6,
+										"endColumn": 8,
+										"startRow": 5
+									},
+									"children": [{
+										"token": {
+											"kind": "atSign",
+											"leadingTrivia": "<br>↲\n␣␣",
+											"trailingTrivia": ""
+										},
+										"range": {
+											"startColumn": 46,
+											"endRow": 6,
+											"endColumn": 3,
+											"startRow": 5
+										},
+										"children": [],
+										"text": "@"
+									}, {
+										"token": {
+											"kind": "identifier(\"objc\")",
+											"leadingTrivia": "",
+											"trailingTrivia": "␣"
+										},
+										"range": {
+											"startColumn": 3,
+											"endRow": 6,
+											"endColumn": 8,
+											"startRow": 6
+										},
+										"children": [],
+										"text": "objc"
+									}, {
+										"token": null,
+										"range": {
+											"startColumn": 8,
+											"endRow": 6,
+											"endColumn": 8,
+											"startRow": 6
+										},
+										"children": [],
+										"text": "TokenList"
+									}],
+									"text": "Attribute"
+								}],
+								"text": "AttributeList"
+							}, {
+								"token": null,
+								"range": {
+									"startColumn": 8,
+									"endRow": 6,
+									"endColumn": 15,
+									"startRow": 6
+								},
+								"children": [{
+									"token": {
+										"kind": "publicKeyword",
+										"leadingTrivia": "",
+										"trailingTrivia": "␣"
+									},
+									"range": {
+										"startColumn": 8,
+										"endRow": 6,
+										"endColumn": 15,
+										"startRow": 6
+									},
+									"children": [],
+									"text": "public"
+								}, {
+									"token": null,
+									"range": {
+										"startColumn": 15,
+										"endRow": 6,
+										"endColumn": 15,
+										"startRow": 6
+									},
+									"children": [],
+									"text": "TokenList"
+								}],
+								"text": "DeclModifier"
+							}, {
+								"token": {
+									"kind": "funcKeyword",
+									"leadingTrivia": "",
+									"trailingTrivia": "␣"
+								},
+								"range": {
+									"startColumn": 15,
+									"endRow": 6,
+									"endColumn": 20,
+									"startRow": 6
+								},
+								"children": [],
+								"text": "func"
+							}, {
+								"token": {
+									"kind": "identifier(\"Dump\")",
+									"leadingTrivia": "",
+									"trailingTrivia": ""
+								},
+								"range": {
+									"startColumn": 20,
+									"endRow": 6,
+									"endColumn": 24,
+									"startRow": 6
+								},
+								"children": [],
+								"text": "Dump"
+							}, {
+								"token": {
+									"kind": "leftParen",
+									"leadingTrivia": "",
+									"trailingTrivia": ""
+								},
+								"range": {
+									"startColumn": 24,
+									"endRow": 6,
+									"endColumn": 25,
+									"startRow": 6
+								},
+								"children": [],
+								"text": "("
+							}, {
+								"token": {
+									"kind": "rightParen",
+									"leadingTrivia": "",
+									"trailingTrivia": "␣"
+								},
+								"range": {
+									"startColumn": 25,
+									"endRow": 6,
+									"endColumn": 27,
+									"startRow": 6
+								},
+								"children": [],
+								"text": ")"
+							}, {
+								"token": {
+									"kind": "arrow",
+									"leadingTrivia": "",
+									"trailingTrivia": "␣"
+								},
+								"range": {
+									"startColumn": 27,
+									"endRow": 6,
+									"endColumn": 30,
+									"startRow": 6
+								},
+								"children": [],
+								"text": "-&gt;"
+							}, {
+								"token": null,
+								"range": {
+									"startColumn": 30,
+									"endRow": 6,
+									"endColumn": 35,
+									"startRow": 6
+								},
+								"children": [{
+									"token": {
+										"kind": "identifier(\"Void\")",
+										"leadingTrivia": "",
+										"trailingTrivia": "␣"
+									},
+									"range": {
+										"startColumn": 30,
+										"endRow": 6,
+										"endColumn": 35,
+										"startRow": 6
+									},
+									"children": [],
+									"text": "Void"
+								}],
+								"text": "SimpleTypeIdentifier"
+							}, {
+								"token": null,
+								"range": {
+									"startColumn": 35,
+									"endRow": 9,
+									"endColumn": 3,
+									"startRow": 6
+								},
+								"children": [{
+									"token": {
+										"kind": "leftBrace",
+										"leadingTrivia": "",
+										"trailingTrivia": ""
+									},
+									"range": {
+										"startColumn": 35,
+										"endRow": 6,
+										"endColumn": 36,
+										"startRow": 6
+									},
+									"children": [],
+									"text": "{"
+								}, {
+									"token": null,
+									"range": {
+										"startColumn": 36,
+										"endRow": 7,
+										"endColumn": 16,
+										"startRow": 6
+									},
+									"children": [{
+										"token": null,
+										"range": {
+											"startColumn": 36,
+											"endRow": 7,
+											"endColumn": 16,
+											"startRow": 6
+										},
+										"children": [{
+											"token": null,
+											"range": {
+												"startColumn": 36,
+												"endRow": 7,
+												"endColumn": 16,
+												"startRow": 6
+											},
+											"children": [{
+												"token": null,
+												"range": {
+													"startColumn": 36,
+													"endRow": 7,
+													"endColumn": 9,
+													"startRow": 6
+												},
+												"children": [{
+													"token": {
+														"kind": "identifier(\"print\")",
+														"leadingTrivia": "<br>↲\n␣␣␣␣",
+														"trailingTrivia": ""
+													},
+													"range": {
+														"startColumn": 36,
+														"endRow": 7,
+														"endColumn": 9,
+														"startRow": 6
+													},
+													"children": [],
+													"text": "print"
+												}],
+												"text": "IdentifierExpr"
+											}, {
+												"token": {
+													"kind": "leftParen",
+													"leadingTrivia": "",
+													"trailingTrivia": ""
+												},
+												"range": {
+													"startColumn": 9,
+													"endRow": 7,
+													"endColumn": 10,
+													"startRow": 7
+												},
+												"children": [],
+												"text": "("
+											}, {
+												"token": null,
+												"range": {
+													"startColumn": 10,
+													"endRow": 7,
+													"endColumn": 15,
+													"startRow": 7
+												},
+												"children": [{
+													"token": null,
+													"range": {
+														"startColumn": 10,
+														"endRow": 7,
+														"endColumn": 15,
+														"startRow": 7
+													},
+													"children": [{
+														"token": null,
+														"range": {
+															"startColumn": 10,
+															"endRow": 7,
+															"endColumn": 15,
+															"startRow": 7
+														},
+														"children": [{
+															"token": {
+																"kind": "stringLiteral(\"\\\"hi!\\\"\")",
+																"leadingTrivia": "",
+																"trailingTrivia": ""
+															},
+															"range": {
+																"startColumn": 10,
+																"endRow": 7,
+																"endColumn": 15,
+																"startRow": 7
+															},
+															"children": [],
+															"text": "&amp;quot;hi!&amp;quot;"
+														}],
+														"text": "StringLiteralExpr"
+													}],
+													"text": "FunctionCallArgument"
+												}],
+												"text": "FunctionCallArgumentList"
+											}, {
+												"token": {
+													"kind": "rightParen",
+													"leadingTrivia": "",
+													"trailingTrivia": ""
+												},
+												"range": {
+													"startColumn": 15,
+													"endRow": 7,
+													"endColumn": 16,
+													"startRow": 7
+												},
+												"children": [],
+												"text": ")"
+											}],
+											"text": "UnknownExpr"
+										}],
+										"text": "ExpressionStmt"
+									}],
+									"text": "Unknown"
+								}, {
+									"token": {
+										"kind": "rightBrace",
+										"leadingTrivia": "<br>↲\n␣␣␣␣<br>↲\n␣␣",
+										"trailingTrivia": ""
+									},
+									"range": {
+										"startColumn": 16,
+										"endRow": 9,
+										"endColumn": 3,
+										"startRow": 7
+									},
+									"children": [],
+									"text": "}"
+								}],
+								"text": "CodeBlock"
+							}],
+							"text": "UnknownDecl"
+						}],
+						"text": "DeclList"
+					}, {
+						"token": {
+							"kind": "rightBrace",
+							"leadingTrivia": "<br>↲\n",
+							"trailingTrivia": ""
+						},
+						"range": {
+							"startColumn": 3,
+							"endRow": 10,
+							"endColumn": 1,
+							"startRow": 9
+						},
+						"children": [],
+						"text": "}"
+					}],
+					"text": "UnknownDecl"
+				}],
+				"text": "DeclarationStmt"
+			}],
+			"text": "Unknown"
+		}],
+		"text": "Unknown"
+	}],
+	"text": "DeclList"
+}, {
+	"token": {
+		"kind": "eof",
+		"leadingTrivia": "<br>↲\n",
+		"trailingTrivia": ""
+	},
+	"range": {
+		"startColumn": 1,
+		"endRow": 11,
+		"endColumn": 0,
+		"startRow": 10
+	},
+	"children": [],
+	"text": ""
+}]
