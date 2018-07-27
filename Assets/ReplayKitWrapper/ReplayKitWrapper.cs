@@ -49,7 +49,7 @@ public class ReplayKitWrapper
 
     private static ReplayState state = ReplayState.NONE;
 
-    public static IEnumerator StartRecording(float seconds, Action recordStarted, Action recordTimeout, Action recordCompleted, Action<ReplayErrorCode, string> recordFailed)
+    public static IEnumerator StartRecording(double seconds, Action recordStarted, Action<double> recordRestTime, Action recordTimeout, Action recordCompleted, Action<ReplayErrorCode, string> recordFailed)
     {
         switch (state)
         {
@@ -88,14 +88,17 @@ public class ReplayKitWrapper
         state = ReplayState.RECORDING;
         recordStarted();
 
+        double rest;
+
         // 指定の秒数待つ。
         var date = DateTime.Now;
-        while ((DateTime.Now - date).TotalSeconds < seconds)
+        while (0 < (rest = (seconds - (DateTime.Now - date).TotalSeconds)))
         {
             switch (state)
             {
                 case ReplayState.RECORDING:
                     // continue.
+                    recordRestTime(rest);
                     yield return null;
                     break;
                 default:
